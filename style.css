@@ -125,3 +125,29 @@ body::before {
   color: #d0d0d0;
   opacity: 0.8;
 }
+
+.bg-change-btn {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  padding: 12px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.bg-change-btn:hover {
+  transform: scale(1.1);
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.bg-change-btn i {
+  font-size: 18px;
+}
